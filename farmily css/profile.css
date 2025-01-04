@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section img{
+    width: 23em;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.icons img{
+    width: 3em;
+    margin: 0 2em;
+}
+
+.profile{
+    margin-top: 7em;
+}
+
+.top_icon{
+    position: absolute;
+    top: 4em;
+    left: 1em;
+}
+
+.log_out{
+    display: flex;
+    justify-content: right;
+    margin-top: 10em;
+}
+
+.log_out img{
+    width: 3.6em;
+    margin-right: 1.3em;
+}

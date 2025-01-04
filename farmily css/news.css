@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+}
+
+img{
+    margin-bottom: 1em;
+    
+}
+
+h1{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.top_arrow{
+    position: absolute;
+    top: 0.4em;
+    left: 1em;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

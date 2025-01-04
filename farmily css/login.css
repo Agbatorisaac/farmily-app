@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 40px;
+    margin-top: 3em;
+}
+
+h2{
+    margin-top: 2.3em;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.form input{
+    width: 19em;
+    height: 2.6em;
+    outline: none;
+    border: 1px solid #3FB78D;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    padding-left: 3em;
+}
+
+span{
+    font-size: 0.8em;
+    margin-bottom: 0.6em;
+}
+
+.forgot_password{
+    display: flex;
+    justify-content: right;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button .sign_up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot_password a{
+    text-decoration: none;
+    color: #000;
+    margin-top: -0.5em;
+    margin-bottom: 4em;
+}
+
+.button .login{
+    width: 100%;
+    height: 3em;
+    border: none;
+    background-color: #3FB78D;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.sign_up a{
+    text-decoration: none;
+    color: #3FB78D;
+    margin-left: 10px;
+}
+
+.profile{
+    position: absolute;
+    top: 17.1em;
+    left: 2em;
+    width: 15px;
+}
+
+.lock{
+    position: absolute;
+    width: 13px;
+    top: 22.1em;
+    left: 2em;
+}

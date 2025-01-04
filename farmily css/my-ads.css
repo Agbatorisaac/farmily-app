@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0 0em;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.box1,.box2{
+    width: 19em;
+    margin-bottom: 1.5em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.ads-listing{
+    margin-left: 1em;
+    margin-bottom: 0.6em;
+}
+.create_ads{
+    width: 17em;
+    margin-left: 1em;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

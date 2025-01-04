@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.logo_img{
+    display: flex;
+    justify-content: center;
+}
+
+section img{
+    width: 45px;
+}
+
+.heading p{
+    font-size: 0.7em;
+    margin-top: -1.1em;
+    margin-bottom: 3em;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+}
+
+.form input ,input {
+    margin-bottom: 1.5em;
+    height: 2em;
+    outline: none;
+    border: 1px solid #3FB78D;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    opacity: 75%;
+}
+
+.tel{
+    padding-left: 10em;
+    position: relative;
+}
+
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 23.57em;
+    left: 2.5em;
+    height: 30px;
+}
+
+.flag img{
+    width: 25px;
+    height: 29px;
+    margin-right: 1.7em;
+}
+
+.flag p{
+    font-size: 0.9em;
+}
+
+.eyes{
+    position: absolute;
+    top: 29.3em;
+    left: 17em;
+    width: 25px;
+}
+
+.p_under{
+    font-size: 0.75em;
+    margin-top: -0.6em;
+    opacity: 25%;
+}
+
+.optional{
+    margin-left: 4em;
+    opacity: 25%;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    width: 87%;
+    height: 3em;
+    border: none;
+    background-color: #3FB78D;
+    color: #fff;
+    border-radius: 6px;
+}
+.button a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in p{
+    margin-right: 1.4em;
+    font-size: 0.9em;
+}
+
+
+.sign_in a{
+    text-decoration: none;
+    color: #3FB78D;
+}
+
+.dropdown{
+    position: absolute;
+    top: 37.3em;
+    left: 17em;
+    width: 10px;
+}

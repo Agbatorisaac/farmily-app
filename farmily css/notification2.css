@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notification{
+    text-align: center;
+    margin-top: 4em;
+}
+
+p{
+    margin-left: 1em;
+}
+
+.top_arrow{
+    position: absolute;
+    top: 3em;
+    left: 1em;
+}

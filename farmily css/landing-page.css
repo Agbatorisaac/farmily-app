@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Itim&display=swap');
+
+
+
+
+body{
+    font-family: "itim" , serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.top_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 2em;
+    margin-right: 
+    1em;
+}
+
+.search-box{
+    width: 12em;
+    margin-right: 1em;
+}
+
+.profile{
+    width: 2em;
+    position: relative;
+}
+
+.green{
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.green p{
+    font-size: 10px;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.slider img{
+    width: 20.9em;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.icons img{
+    width: 18em;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news img{
+    width: 20.9em;
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: left;
+    width: 20em;
+}
+
+.trending_h2{
+    text-align: left;
+    color: #3FB78D;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.chair{
+    width: 20px;
+}
+
+
+.wrapper{
+    position: absolute;
+    background-color: #F8FFA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.down_menu{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+}

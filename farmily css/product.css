@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4em;
+    
+}
+
+.bg img{
+    width: 20.9em;
+} 
+
+.price{
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+    margin-bottom: 1.6em;
+}
+
+.price img{
+    width: 19em;
+}
+
+.market-price{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.market-price img{
+    width: 19em;
+}
+
+.start-chat{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.start-chat img{
+    width: 19em;
+}
+
+.box1, .box2{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin-left: 6em;
+    font-size: 0.5em;
+
+}
+
+.box1 img, .box2 img{
+    width: 19em;
+    margin-bottom: 1em;
+}
+
+.arrow{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+

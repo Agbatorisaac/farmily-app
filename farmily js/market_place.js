@@ -1,0 +1,1 @@
+setTimeout(() => document.getElementById('open').style.display = 'none', 2000);

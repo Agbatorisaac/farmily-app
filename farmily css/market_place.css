@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Itim&display=swap');
+
+
+
+body{
+    font-family: "itim";
+    color: #0D3D2C;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.box_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 1.7em ;
+}
+
+
+
+.box_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box_content img{
+    width: 150px;
+}
+
+.box_content h1{
+    font-size: 1.4em;
+}
+
+.box_content h2{
+    font-size: 1em;
+    margin-top: -0.5em;
+    font-weight: 400;
+}
+
+.box_content p{
+    font-size: 0.5em;
+    margin-top: -1em;
+    margin-bottom: 4em;
+    font-weight: 300;
+}
+
+.down_menu{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
+.wrapper{
+    position: absolute;
+    background-color: #F8FFA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+

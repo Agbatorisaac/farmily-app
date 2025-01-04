@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+}
+
+h1{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.content button{
+    margin-left: 2em;
+    border: none;
+    width: 11em;
+    height: 2.8em;
+    background-color: #3FB78D;
+    border-radius: 10px;
+}
+
+.content img{
+    margin-left: 1em;
+}
+
+
+.top_arrow{
+    position: absolute;
+    top: 0.3em;
+    left: 1em;
+    width: 1em;
+
+}
+
+.top_arrow img{
+    width: 2em;
+}
